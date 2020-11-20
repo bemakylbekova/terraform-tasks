@@ -1,4 +1,4 @@
-resource "aws_key_pair" "Centos6" {
-  key_name   = "Centos6s"
+resource "aws_key_pair" "class" {
+  key_name   = "class2-key"
   public_key = "${file("~/.ssh/id_rsa.pub")}"
 }
